@@ -78,4 +78,4 @@ RFM-based customer segments, revenue contribution by segment, and recency-vs-mon
 
 ## Author
 
-Vinjam Rajesh
+Immadi sathwik
