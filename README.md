@@ -18,21 +18,27 @@ This project simulates a real retail analytics workflow:
 
 ## Repository Structure
 
-```
 retail-sales-customer-analytics/
+│
+├── data/
+│   ├── online_retail_II.csv
+│   ├── clean_transactions.csv
+│   └── rfm_segments.csv
+│
 ├── sql/
-│   └── retail_sql_analysis.sql       # Schema, cleaning, and business queries
+│   └── retail_sql_analysis.sql
+│
 ├── python/
-│   └── retail_rfm_analysis.ipynb     # Data cleaning + RFM segmentation
+│   └── retail_rfm_analysis.ipynb
+│
 ├── powerbi/
-│   └── DashBoard [Retail Analytics].pbix
-├── images/
-│   ├── executive_overview.png
-│   └── customer_segmentation.png
-└── README.md
-```
-
----
+│   └── Dashboard [Retail Analytics].pbix
+│
+├── executive_overview.png
+├── customer_segmentation.png
+│
+├── README.md
+└── requirements.txt
 
 ## Key Insights
 
@@ -58,12 +64,12 @@ retail-sales-customer-analytics/
 ### Executive Overview
 Sales KPIs, monthly revenue trend, top products, and revenue by country.
 
-![Executive Overview](images/executive_overview.png)
+![Executive Overview](./executive_overview.png)
 
 ### Customer Segmentation
 RFM-based customer segments, revenue contribution by segment, and recency-vs-monetary analysis.
 
-![Customer Segmentation](images/customer_segmentation.png)
+![Customer Segmentation](./customer_segmentation.png)
 
 ---
 
